@@ -1,6 +1,6 @@
 # Poker C-Sharp
 
-## A Proposta deste projeto é criar um classificador de Mãos de acordo com as regras do Poker utilizando o C-Sharp, demonstrando as minhas habilidades em POO e Procedural.
+`A Proposta deste projeto é criar um classificador de Mãos de acordo com as regras do Poker utilizando o C-Sharp, demonstrando as minhas habilidades em POO e Procedural.`
 
 ### Baralho.cs
 Neste arquivo, é criado o baralho com 52 cartas, composto por 4 naipes (Espadas, Copas, Ouros, Paus) e 13 cartas para cada naipe, numeradas de 2 a 10, e com valores especiais de 11 a 14 (Valete, Dama, Rei, Ás). Destaca-se o uso de um switch para converter o número da carta em sua representação textual correspondente, semelhante ao WHEN da linguagem Kotlin, de forma que fique conciso e sofisticado.
