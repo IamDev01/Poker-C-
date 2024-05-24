@@ -52,6 +52,6 @@ public void TestRoyalFlush()
 
 ### Especificações do Projeto
 
-Tipo de Projeto: Aplicação de Console
-Plataforma: .NET 8.0
-Framework de Testes: MSTest 3.4.0
+Tipo de Projeto: Aplicação de Console  
+Plataforma: .NET 8.0  
+Framework de Testes: MSTest 3.4.0  
