@@ -4,7 +4,8 @@
 
 ### Baralho.cs
 Neste arquivo, é criado o baralho com 52 cartas, composto por 4 naipes (Espadas, Copas, Ouros, Paus) e 13 cartas para cada naipe, numeradas de 2 a 10, e com valores especiais de 11 a 14 (Valete, Dama, Rei, Ás). Destaca-se o uso de um switch para converter o número da carta em sua representação textual correspondente, semelhante ao WHEN da linguagem Kotlin, de forma que fique conciso e sofisticado.
-````public override string ToString()
+````
+public override string ToString()
 {
     string valorStr = Valor switch
     {
@@ -15,7 +16,8 @@ Neste arquivo, é criado o baralho com 52 cartas, composto por 4 naipes (Espadas
         _ => Valor.ToString()
     };
     return $"{valorStr} de {Naipe}";
-}````
+}
+````
 
 ### classificadorDeMao.cs
 
@@ -30,7 +32,8 @@ Este arquivo centraliza a execução do programa. Nele, são chamados os método
 O projeto inclui testes unitários para garantir que as funcionalidades estão operando corretamente. Os testes abrangem as diferentes partes do código, verificando se a criação do baralho, o sorteio das cartas e a classificação da mão estão produzindo os resultados esperados.
 
 Ao garantir uma cobertura adequada de testes, aumentamos a confiabilidade do programa e reduzimos a probabilidade de erros durante o desenvolvimento e manutenção do código.
-````[TestMethod]
+````
+[TestMethod]
 public void TestRoyalFlush()
 {
     var mao = new List<Carta>
@@ -44,7 +47,8 @@ public void TestRoyalFlush()
 
     string resultado = ClassificadorDeMao.ClassificarMao(mao);
     Assert.AreEqual("Royal Flush", resultado);
-}````
+}
+````
 
 ### Especificações do Projeto
 
