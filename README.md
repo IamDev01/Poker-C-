@@ -50,7 +50,7 @@ public void TestRoyalFlush()
 }
 ````
 
-### Especificações do Projeto
+### Especificações
 
 Tipo de Projeto: Aplicação de Console  
 Plataforma: .NET 8.0  
